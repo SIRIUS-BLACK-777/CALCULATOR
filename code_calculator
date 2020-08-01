@@ -1,0 +1,28 @@
+print("what type of arthematic operation you want to do?\n"
+      "type + for addition\n"
+      "type - for substraction\n"
+      "type / for division\n"
+      "type* for multiplication\n"
+      "type ^ to get raised to the power\n"
+      )
+operator = input()
+print("enter first number \n")
+A=int(input())
+print("enter second number \n")
+B=int(input())
+a='+'
+b="-"
+c="*"
+d="/"
+e="^"
+if (operator == b):
+    print('when first number is substracted from second number it gives',A-B)
+elif (operator == a):
+    print('addition of both the numbers gives',A+B)
+elif (operator == c):
+    print('first number multiplied by second number gives',A*B)
+elif (operator == d):
+    print('first nunmber divided by second number gives',A/B)
+elif (operator == e):
+    print('second number to the power first number gives',A ** B)
+    
